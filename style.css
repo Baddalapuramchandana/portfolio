@@ -1,0 +1,181 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+.box{
+    height: 120vh;
+    width: 100%;
+    background: url(../portfolio/images/bag.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.index h3{
+    display: inline-block;
+    /* margin: 1vh 8vw; */
+    margin-left: 20vw;
+}
+
+.index img{
+    border-radius: 50%;
+    margin: 1vh 38vw;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(17, 15, 15);
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+h3 button{
+    height: 5vh;
+    width: 5vw;
+    color: black;
+}
+
+.second button {
+    display: inline-block;
+    align-items: center;
+    height: 5vh;
+    width: 6vw;
+    box-shadow: 1px 1px 10px black;
+    background-color: white;
+    margin: 10vh 3vw;
+    padding: 1px;
+    border-radius: 10px 10px 10px ;
+    
+}
+.second button a{
+    text-decoration:none;
+}
+.second button:hover{
+    cursor: pointer;
+}
+
+.aboutme{
+    border-radius: 10px;
+    height: 50vh;
+    width: 60%;
+    background-color: rgb(193, 193, 198);
+    margin: 10vh 20vw;
+
+}
+
+.aboutme h2{
+    font-weight: lighter;
+    text-align: justify;
+
+}
+.edu{
+    background-color: darksalmon;
+}
+.edu h1{
+    margin: 5vh 5vw;
+}
+.edu h2{
+    font-weight: lighter;
+}
+.eduinter h2{
+    font-weight: lighter;
+}
+.eduinter h1{
+    margin: 5vh 5vw;
+}
+.eduinter{
+    background-color: rgb(195, 175, 213);
+    margin: 5vh;
+}
+.edutenth h2{
+    font-weight: lighter;
+}
+.edutenth h1{
+    margin: 5vh 5vw;
+}
+.edutenth {
+    background-color: rgb(71, 168, 168);
+}
+
+.skills{
+    margin: 10vh;
+    background-color: rgb(165, 165, 71);
+}
+
+.skills ul{
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh 40vw;
+}
+.relevant{
+    background-color: rgb(203, 222, 185);
+    margin: 8vh;
+}
+.relevant ul{
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh 40vw;
+}
+.tools{
+    margin: 8vh;
+    background-color: rgb(203, 181, 224);
+}
+.tools ul{
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh 40vw;
+}
+.projects{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(208, 186, 170);
+}
+.projects li{
+    font-size: 30px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    margin: 3vh 10vw;
+}
+.projects h4{
+    font-weight: lighter;
+}
+
+.certi{
+    margin: 10vh 10vw;
+    font-size: 25px;
+    background-color: lightblue;
+}
+
+.interset{
+    margin: 10vh 10vw;
+    font-size: 25px;
+    background-color: lightblue;
+}
+.interset li{
+    margin: 3vh 10vw;
+}
+.lang{
+    height: 70vh;
+    width: 80%;
+    background-color: rgb(160, 201, 201);
+    margin: 10vh 10vw;
+}
+.lang li{
+    font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 10vw;
+    font-size: 20px;
+
+}
